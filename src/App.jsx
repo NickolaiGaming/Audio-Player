@@ -1,8 +1,15 @@
 import React from 'react';
+import Player1 from "./components/Player1";
+
 
 const App = () => {
     return (
-        <h1>REACT APP</h1>
+        <div className='App'>
+            <header className='App-header'>
+            <Player1 />
+            </header>
+        </div>
+        
     )
 }
 
